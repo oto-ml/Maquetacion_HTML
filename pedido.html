@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacer Pedido</title>
+</head>
+
+<body>
+    <h1>Aqui realizaras tu Pedido</h1>
+    
+    <form action="pedido.js">
+        <label for="nombre">Escribe tu nombre </label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="Telefono">Escribe tu numero celular</label>
+        <input type="text" id="telefono" name="telefono" placeholder="telefono">
+
+        <br><br>
+
+        <label for="correo">Escribe tu email</label>
+        <input type="text" id="correo electronico" name="correo" placeholder="tucorreo@dominio.com">
+
+        <br><br>
+
+        <label for="Descripcion">Danos unas breve descripcion de tu pedido</label>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Describe tu pedido">
+
+        <br> <br>
+
+        <p>Que combinaciones vas a escoger</p>
+        <input type="checkbox" id="fresa" name="fresa" value="fresa">
+        <label for="fresa">Fresa</label>
+        <input type="number" id="Cuantosfresa" name="cauntosfresa"><br>
+
+        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate</label>
+        <input type="number" id="Cuantoschocolate" name="cauntoschocolate"><br>
+
+        <input type="checkbox" id="Ferrero" name="Ferrero" value="Ferrero">
+        <label for="Ferrero">Ferrero</label>
+        <input type="number" id="Cuantosferrero" name="Cuantosferrero"><br>
+
+        <input type="checkbox" id="Moka" name="Moka" value="Moka">
+        <label for="Moka">Moka</label>
+        <input type="number" id="Cuantosmoka" name="cauntosmoka"><br>
+
+        <input type="checkbox" id="combinado" name="combinado" value="combinado">
+        <label for="combinado">Combinado</label>
+        <input type="number" id="Cuantoscombinado" name="Cuantoscombinado"><br>
+
+        <br> <br>
+
+        <input type="reset">
+        <input type="submit">
+
+        
+
+    </form>
+
+</body>
